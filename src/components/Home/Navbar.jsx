@@ -23,7 +23,7 @@ const NavBar = () => {
           className="cursor-pointer"
           width={70}
           height={70}
-          src="/assets/logo/logo.svg"
+          src={`${import.meta.env.BASE_URL}assets/logo/logo.svg`}
           alt="Logo"
         />
 
