@@ -52,7 +52,7 @@ const NavBar = () => {
           className="lg:hidden block focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <img src="/assets/menu.svg" alt="Menu" width={32} height={32} />
+          <img src={`${import.meta.env.BASE_URL}assets/menu.svg`} alt="Menu" width={32} height={32} />
         </button>
       </header>
 

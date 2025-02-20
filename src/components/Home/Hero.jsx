@@ -34,7 +34,7 @@ const Hero = () => {
     <section ref={heroRef} className="relative h-[800px] w-screen flex items-center justify-center bg-purple-900 shadow-lg">
       {/* Video en fond */}
       <video className="absolute top-0 left-0 w-full h-full object-cover z-0 " autoPlay muted loop playsInline>
-        <source src="/assets/video/vi.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}assets/video/vi.mp4`} type="video/mp4" />
       </video>
 
       {/* Contenu au-dessus de la vidéo */}
